@@ -26,4 +26,12 @@ public class Like {
     protected void onCreate() {
         createdAt = LocalDateTime.now();
     }
+
+    public void setTweet(Tweet tweet) {
+        this.tweet = tweet;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
 } 
